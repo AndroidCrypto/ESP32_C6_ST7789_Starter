@@ -13,7 +13,7 @@ I'm using a display specific setup file for the combination ESP32-C6 Supermini w
 
 Please copy the file
 
-    **Setup703_C6_SM_ST7789_240x320.h**
+    Setup703_C6_SM_ST7789_240x320.h
 
 to the **User_Setups** folder.
 
