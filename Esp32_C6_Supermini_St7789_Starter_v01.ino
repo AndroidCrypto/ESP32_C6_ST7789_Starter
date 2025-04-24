@@ -1,6 +1,6 @@
 /*
   This sketch shows how to work with the ESP32-C6 Supermini development board.
-  Attached is an onboard 1.80 inch TFT display that runs a ST7735 driver.
+  Attached is a 2.0 inch TFT display that runs a ST7789 driver.
   The display has a size of 240x320 pixels.
   The library for the display is TFT_eSPI in a modified version, because the original
   version (2.5.4) can't run on ESP32 SDK 3.x so far and this SDK version is needed to
