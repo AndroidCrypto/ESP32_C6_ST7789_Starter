@@ -23,25 +23,19 @@ You need to place the following line in the root folder's "**User_Setup_Select.h
 
     #include <User_Setups/Setup703_C6_SM_ST7789_240x320.h> // ESP32-C6 Supermini, 80 MHz
 
-Second: please comment all other "#include..." entries like this:
+Second: please comment all other "#include..." entries like this, especially the "//#include <User_Setup.h>" entry.
 
 ````
 // Example User_Setup files are stored in the "User_Setups" folder. These can be used
 // unmodified or adapted for a particular hardware configuration.
-
 #ifndef USER_SETUP_LOADED //  Lets PlatformIO users define settings in
                           //  platformio.ini, see notes in "Tools" folder.
-
 ///////////////////////////////////////////////////////
 //   User configuration selection lines are below    //
 ///////////////////////////////////////////////////////
-
 // Only ONE line below should be uncommented to define your setup.  Add extra lines and files as needed.
-
 //#include <User_Setup.h>                       // Default setup is root library folder
-
 // Setup file in folder Arduino/libraries (updates will not overwrite your setups)
-
 #include <User_Setups/Setup703_C6_SM_ST7789_240x320.h> // ESP32-C6 Super Mini, 80 MHz
 ````
 
