@@ -1,4 +1,4 @@
-# ESP32 C6 ST7789 Starter
+# ESP32-C6 Supermini with ST7789 TFT display Starter
 Getting started with an **ESP32-C6 Supermini** device and a TFT display with driver chip **ST7789**.
 
 This is the accompanying repository for my article "**Getting Started with an ESP32-C6 Supermini device connected to an ST7789 TFT display**".
