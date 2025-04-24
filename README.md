@@ -5,9 +5,11 @@ This is the accompanying repository for my article "**Getting Started with an ES
 
 My display is a 2.0 inch large TFT display with 240 x 320 pixels.
 
-## Settings for the display specific file
+## Settings for the display specific setup file
 
-I'm using a display specific file
+I'm using a display specific setup file for the combination ESP32-C6 Supermini with TFT display driver ST7789. If your display has a different size please change the height and width accordingly:
+
+703_xxx
 
 ## Important note
 
